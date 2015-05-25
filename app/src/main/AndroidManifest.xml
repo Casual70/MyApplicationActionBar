@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.filippocasa.myapplicationactionbar" >
+
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".activity.AccessActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.RegistrationActivity"
+            android:label="@string/title_activity_registration" >
+            <intent-filter>
+                <action android:name="com.example.filippocasa.myapplicationactionbar.action.REGISTARTION_ACTION" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.ChoiseProductActivity"
+            android:label="@string/title_activity_choise_product" >
+            <intent-filter>
+                <action android:name="com.example.filippocasa.myapplicationactionbar.action.CHOISE_ACTION" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.ProductDetailActivity"
+            android:label="@string/title_activity_product_detail" >
+        </activity>
+        <activity
+            android:name=".activity.AccessLogActivity"
+            android:label="@string/title_activity_access_log" >
+            <intent-filter>
+                <action android:name="com.example.filippocasa.myapplicationactionbar.action.ACCESS_LOG_ACTION" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.ListProductForTypeActivity"
+            android:label="@string/title_activity_list_product_for_type" >
+            <intent-filter>
+                <action android:name="com.example.filippocasa.myapplicationactionbar.action.LIST_PRODUCT_ACTION" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.CarrelloActivity"
+            android:label="@string/title_activity_carrello" >
+            <intent-filter>
+                <action android:name="com.example.filippocasa.myapplicationactionbar.action.CARRELLO_ACTION" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

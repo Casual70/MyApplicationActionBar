@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">My ApplicationActionBar</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="anomimus_access_label">Anonimo</string>
+    <string name="login_access_label">Login</string>
+    <string name="reg_label">Registrati</string>
+
+    <string name="offert_list_titel">Offerta</string>
+    <string name="title_activity_registration">RegistrationActivity</string>
+
+    <string name="username_label">Username</string>
+    <string name="password_label">Password</string>
+    <string name="email_label">Email</string>
+
+    <string name="error_cred">Errore credenziali</string>
+
+    <string name="confirm_label">Conferma</string>
+    <string name="modify_label">Modifica</string>
+    <string name="title_activity_choise_product">ChoiseProductActivity</string>
+    <string name="title_activity_product_detail">ProductDetailActivity</string>
+    <string name="title_activity_access_log">AccessLogActivity</string>
+
+    <string name="profile_edit">Modifica profilo</string>
+    <string name="carrello">Carrello</string>
+    <string name="ricette">Ricette</string>
+    <string name="condimneti">Condimenti</string>
+    <string name="tartufo">Tartufo</string>
+    <string name="salse">Salse</string>
+    <string name="title_activity_list_product_for_type">ListProductForTypeActivity</string>
+
+    <string name="unità_tartufo">Grammi(g)</string>
+    <string name="unità_pezzo">Pezzo(cad)</string>
+    <string name="unità_price_qnt_tartufo">€/g</string>
+    <string name="unità_price_qnt_pezzo">€/Cad</string>
+    <string name="tot_price">Totale</string>
+    <string name="title_activity_carrello">CarrelloActivity</string>
+
+    <string name="confirma">Conferma</string>
+    <string name="delete_all">Cancella</string>
+
+</resources>

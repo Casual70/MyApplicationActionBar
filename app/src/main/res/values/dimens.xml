@@ -1,0 +1,14 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!--Popup dime-->
+    <dimen name="pop_horizontal">40dp</dimen>
+    <dimen name="pop_vertical">80dp</dimen>
+    <!--Product Detail-->
+    <dimen name="image_horizontal">180dp</dimen>
+    <dimen name="image_vertical">180dp</dimen>
+    <!--loging Activity-->
+    <dimen name="margin_top_label_login">20dp</dimen>
+</resources>
